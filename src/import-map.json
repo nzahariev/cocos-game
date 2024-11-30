@@ -2,7 +2,18 @@
     "imports": {
       "cc": "../cocos-js/cc.js",
       "_virtual_cc": "../cocos-js/_virtual_cc-345422d2.js",
-      "cc.js": "../cocos-js/cc.js"
+      "cc.js": "../cocos-js/cc.js",
+      "_virtual_cc-345422d2.js": "../cocos-js/_virtual_cc-345422d2.js",
+      "meshopt_decoder.asm-15527caa.js": "../cocos-js/meshopt_decoder.asm-15527caa.js",
+      "meshopt_decoder.wasm-43855155.js": "../cocos-js/meshopt_decoder.wasm-43855155.js",
+      "meshopt_decoder.wasm-ebbc6b6f.js": "../cocos-js/meshopt_decoder.wasm-ebbc6b6f.js",
+      "spine-9a8528df.js": "../cocos-js/spine-9a8528df.js",
+      "spine.asm-97b906da.js": "../cocos-js/spine.asm-97b906da.js",
+      "spine.js-6d0b02e3.js": "../cocos-js/spine.js-6d0b02e3.js",
+      "spine.wasm-42c71fb5.js": "../cocos-js/spine.wasm-42c71fb5.js",
+      "meshopt_decoder.wasm-12c0a404.wasm": "../cocos-js/assets/meshopt_decoder.wasm-12c0a404.wasm",
+      "spine-59f406dc.wasm": "../cocos-js/assets/spine-59f406dc.wasm",
+      "spine.js.mem-90a4faeb.bin": "../cocos-js/assets/spine.js.mem-90a4faeb.bin"
     }
   }
   
