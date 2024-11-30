@@ -5,11 +5,11 @@
 
   <title>Cocos Creator | cocos-flappy</title>
 
-  <!-- http://www.html5rocks.com/en/mobile/mobifying/ -->
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
         content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true"/>
 
-  <!-- https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html -->
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="format-detection" content="telephone=no">
@@ -26,9 +26,12 @@
   <meta name="x5-fullscreen" content="true"/>
   <meta name="360-fullscreen" content="true"/>
 
-  <!-- fix fireball/issues/3568 -->
+  <!--fix fireball/issues/3568 -->
   <!--<meta name="browsermode" content="application">-->
   <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/cocos-game/favicon.ico"/>
@@ -45,21 +48,23 @@
         <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99"></canvas>
       </div>
     </div>
+  
 
-  <!-- Polyfills bundle -->
-  <script src="/cocos-game/src/polyfills.bundle.js" charset="utf-8"></script>
+<!-- Polyfills bundle -->
+<script src="/cocos-game/src/polyfills.bundle.js" charset="utf-8"></script>
 
-  <!-- SystemJS support -->
-  <script src="/cocos-game/src/system.bundle.js" charset="utf-8"></script>
+<!-- SystemJS support -->
+<script src="/cocos-game/src/system.bundle.js" charset="utf-8"></script>
 
-  <!-- Import map -->
-  <script src="/cocos-game/src/import-map.json" type="systemjs-importmap" charset="utf-8"></script>
+<!-- Import map -->
+<script src="/cocos-game/src/import-map.json" type="systemjs-importmap" charset="utf-8"></script>
 
-  <!-- Main Script -->
-  <script>
+<!-- Main Script -->
+<script>
     System.import('/cocos-game/index.js').catch(function(err) {
         console.error(err);
     });
-  </script>
+</script>
+
 </body>
 </html>
