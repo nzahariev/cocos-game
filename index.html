@@ -30,12 +30,13 @@
   <!--<meta name="browsermode" content="application">-->
   <meta name="x5-page-mode" content="app">
 
-  <!--<link rel="apple-touch-icon" href=".png" />-->
-  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/cocos-game/favicon.ico"/>
 
+  <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="/cocos-game/style.css"/>
 
-  <!-- Added base tag for GitHub Pages -->
+  <!-- Base tag for GitHub Pages -->
   <base href="/cocos-game/">
 </head>
 <body>
@@ -44,21 +45,21 @@
         <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99"></canvas>
       </div>
     </div>
-  
 
-<!-- Polyfills bundle. -->
-<script src="/cocos-game/src/polyfills.bundle.js" charset="utf-8"> </script>
+  <!-- Polyfills bundle -->
+  <script src="/cocos-game/src/polyfills.bundle.js" charset="utf-8"></script>
 
-<!-- SystemJS support. -->
-<script src="/cocos-game/src/system.bundle.js" charset="utf-8"> </script>
+  <!-- SystemJS support -->
+  <script src="/cocos-game/src/system.bundle.js" charset="utf-8"></script>
 
-<!-- Import map -->
-<script src="/cocos-game/src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
+  <!-- Import map -->
+  <script src="/cocos-game/src/import-map.json" type="systemjs-importmap" charset="utf-8"></script>
 
-<script>
-    // Updated System.import path
-    System.import('/cocos-game/index.js').catch(function(err) { console.error(err); })
-</script>
-
+  <!-- Main Script -->
+  <script>
+    System.import('/cocos-game/index.js').catch(function(err) {
+        console.error(err);
+    });
+  </script>
 </body>
 </html>
