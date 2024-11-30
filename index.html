@@ -5,11 +5,11 @@
 
   <title>Cocos Creator | cocos-flappy</title>
 
-  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <!-- http://www.html5rocks.com/en/mobile/mobifying/ -->
   <meta name="viewport"
         content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true"/>
 
-  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <!-- https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="format-detection" content="telephone=no">
@@ -26,7 +26,7 @@
   <meta name="x5-fullscreen" content="true"/>
   <meta name="360-fullscreen" content="true"/>
 
-  <!--fix fireball/issues/3568 -->
+  <!-- fix fireball/issues/3568 -->
   <!--<meta name="browsermode" content="application">-->
   <meta name="x5-page-mode" content="app">
 
@@ -35,6 +35,8 @@
 
   <link rel="stylesheet" type="text/css" href="style.css"/>
 
+  <!-- Added base tag for GitHub Pages -->
+  <base href="/cocos-game/">
 </head>
 <body>
   <div id="GameDiv" cc_exact_fit_screen="true">
@@ -45,9 +47,7 @@
   
 
 <!-- Polyfills bundle. -->
-
 <script src="src/polyfills.bundle.js" charset="utf-8"> </script>
-
 
 <!-- SystemJS support. -->
 <script src="src/system.bundle.js" charset="utf-8"> </script>
@@ -56,6 +56,7 @@
 <script src="src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script>
 
 <script>
+    // Updated System.import path
     System.import('./index.js').catch(function(err) { console.error(err); })
 </script>
 
