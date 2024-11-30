@@ -1,7 +1,8 @@
 {
     "imports": {
       "cc": "./cocos-js/cc.js",
-      "_virtual_cc": "./cocos-js/_virtual_cc-345422d2.js"
+      "_virtual_cc": "./cocos-js/_virtual_cc-345422d2.js",
+      "cc.js": "./cocos-js/cc.js"
     }
   }
   
